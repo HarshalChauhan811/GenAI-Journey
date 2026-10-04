@@ -10,8 +10,8 @@ const platform = os.platform();
 const asyncExecute = promisify(exec);  // ye promise return karega 
 // ham chahte hai ki jab tak hamara calculator folder na ban jaye tab tak index.html file na bne 
 
-const History = [];
-const ai = new GoogleGenAI({ apiKey: "AIzaSyCEuwl8DoNYaKYxnq5Ty1z3rAtafd3DyT0" });
+const History = [];  
+const ai = new GoogleGenAI({ apiKey: "AIzaSyCEuwl8DoNYaKYxnq5Ty1z3rAtafd3DyT0" });  
 
 
 //  Tool create karte hai, jo kisi bhi terminal/ shell command ko execute kar sakta hai
